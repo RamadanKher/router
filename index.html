@@ -63,16 +63,25 @@
     }
     .cta a {
       display: inline-block;
-      background: #25d366;
       color: white;
       text-decoration: none;
-      font-size: 1.2rem;
-      padding: 1rem 2rem;
+      font-size: 1.1rem;
+      padding: 0.8rem 1.5rem;
       border-radius: 50px;
       transition: 0.3s;
+      margin: 0.3rem;
     }
-    .cta a:hover {
+    .cta a.whatsapp {
+      background: #25d366;
+    }
+    .cta a.whatsapp:hover {
       background: #1da851;
+    }
+    .cta a.facebook {
+      background: #1877f2;
+    }
+    .cta a.facebook:hover {
+      background: #145dbf;
     }
     footer {
       background: #f1f5f9;
@@ -112,7 +121,8 @@
     </ul>
 
     <div class="cta">
-      <a href="https://wa.me/966560073121" target="_blank">📲 تواصل عبر واتساب</a>
+      <a href="https://wa.me/966560073121" target="_blank" class="whatsapp">📲 تواصل عبر واتساب</a>
+      <a href="https://www.facebook.com/share/1BEPvix4u2/" target="_blank" class="facebook">📘 تواصل عبر فيسبوك</a>
     </div>
   </section>
 
